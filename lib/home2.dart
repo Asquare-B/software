@@ -16,6 +16,7 @@ class _Home2State extends State<Home2> {
     var cardStyle = TextStyle(fontSize: 18, fontWeight: FontWeight.bold);
     var size = MediaQuery.of(context).size;
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
       flexibleSpace: Container(
         decoration: BoxDecoration(

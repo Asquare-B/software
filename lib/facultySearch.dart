@@ -11,9 +11,12 @@ class FacultySearchHome extends StatefulWidget {
 class _FacultySearchHomeState extends State<FacultySearchHome> {
   @override
   Widget build(BuildContext context) {
+
     var mycontroller = TextEditingController();
     var size = MediaQuery.of(context).size;
     return Scaffold(
+
+      backgroundColor: Colors.white,
       appBar: AppBar(
         flexibleSpace: Container(
           decoration: BoxDecoration(

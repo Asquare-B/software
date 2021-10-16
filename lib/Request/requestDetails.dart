@@ -11,6 +11,7 @@ class _RequestDetailsState extends State<RequestDetails> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       drawer: Menu(),
       appBar: AppBar(
         flexibleSpace: Container(

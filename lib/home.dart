@@ -19,6 +19,7 @@ class _WelcomeState extends State<Welcome> {
     var size = MediaQuery.of(context).size;
     var cardStyle = TextStyle(fontSize: 18, fontWeight: FontWeight.bold);
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         flexibleSpace: Container(
           decoration: BoxDecoration(

@@ -14,6 +14,7 @@ class _StartState extends State<Start> {
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: Container(
           height: size.height,

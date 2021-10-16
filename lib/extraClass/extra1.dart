@@ -11,6 +11,7 @@ class _Extra1State extends State<Extra1> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         flexibleSpace: Container(
           decoration: BoxDecoration(
