@@ -1,3 +1,4 @@
+import 'package:software/Profile%20and%20contact/profile2.dart';
 import 'package:software/Request/requestHome.dart';
 import 'package:flutter/material.dart';
 import 'package:software/home2.dart';
@@ -79,7 +80,7 @@ class _MenuState extends State<Menu> {
           GestureDetector(
             onTap: () {
               Navigator.of(context).push(
-                  MaterialPageRoute(
+                    MaterialPageRoute(
                       builder: (context) => Home2()
                   )
               );
@@ -88,6 +89,11 @@ class _MenuState extends State<Menu> {
           ),
           GestureDetector(
             child: buttonTile("Profile"),
+            onTap: (){
+              Navigator.of(context).push(
+                MaterialPageRoute(builder: (context)=>Profile())
+              );
+            },
           ),
           GestureDetector(
             child: buttonTile("About us"),
