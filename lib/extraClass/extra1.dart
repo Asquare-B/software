@@ -24,9 +24,17 @@ class _Extra1State extends State<Extra1> {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.only(bottomLeft: Radius.circular(30),bottomRight: Radius.circular(30)),
         ),
-        title: Text('Education Scheduler'),
+        title: Text('Education Scheduler',style: TextStyle(color: Colors.black),),
       ),
       drawer: Menu(),
+      body: Container(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: <Widget>[
+
+          ],
+        ),
+      ),
     );
   }
 }

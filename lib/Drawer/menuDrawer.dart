@@ -1,5 +1,6 @@
 import 'package:software/Request/requestHome.dart';
 import 'package:flutter/material.dart';
+import 'package:software/home2.dart';
 
 class Menu extends StatefulWidget {
   const Menu({Key? key}) : super(key: key);
@@ -76,7 +77,14 @@ class _MenuState extends State<Menu> {
             child: buttonTile("Faculty Search"),
           ),
           GestureDetector(
-            child: buttonTile("Student Search"),
+            onTap: () {
+              Navigator.of(context).push(
+                  MaterialPageRoute(
+                      builder: (context) => Home2()
+                  )
+              );
+            },
+            child: buttonTile("Home 2"),
           ),
           GestureDetector(
             child: buttonTile("Profile"),
