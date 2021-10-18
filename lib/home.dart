@@ -3,6 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:software/Drawer/menuDrawer.dart';
 import 'package:flutter/rendering.dart';
+import 'package:software/Profile%20and%20contact/profile2.dart';
 import 'package:software/Request/requestHome.dart';
 import 'package:software/extraClass/extra1.dart';
 
@@ -176,7 +177,11 @@ class _WelcomeState extends State<Welcome> {
                               ),
                             ),
                             InkWell(
-                              onTap: () {},
+                              onTap: () {
+                                Navigator.of(context).push(
+                                  MaterialPageRoute(builder: (context)=>Profile())
+                                );
+                              },
                               splashColor: Colors.black54,
                               borderRadius: BorderRadius.circular(15),
                               child: Card(

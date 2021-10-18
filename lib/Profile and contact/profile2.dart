@@ -96,8 +96,8 @@ class _ProfileState extends State<Profile> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
-                            Text('Programme:',style: cardStyle),
-                            Text('Programme name',style: cardStyle1),
+                            Text('School:',style: cardStyle),
+                            Text("School's name",style: cardStyle1),
                           ],
                         ),
                       )
