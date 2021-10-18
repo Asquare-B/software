@@ -6,6 +6,7 @@ import 'package:flutter/rendering.dart';
 import 'package:software/Profile%20and%20contact/profile2.dart';
 import 'package:software/Request/requestHome.dart';
 import 'package:software/extraClass/extra1.dart';
+import 'package:software/substitute%20class/sClass2.dart';
 
 class Welcome extends StatefulWidget {
   const Welcome({Key? key}) : super(key: key);
@@ -125,7 +126,11 @@ class _WelcomeState extends State<Welcome> {
                               ),
                             ),
                             InkWell(
-                              onTap: () {},
+                              onTap: () {
+                                Navigator.of(context).push(
+                                    MaterialPageRoute(builder: (context)=>SubClass2())
+                                );
+                              },
                               splashColor: Colors.black54,
                               borderRadius: BorderRadius.circular(15),
                               child: Card(
