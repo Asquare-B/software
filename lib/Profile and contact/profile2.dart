@@ -36,20 +36,19 @@ class _ProfileState extends State<Profile> {
       body: Stack(
         children: [
           SizedBox(
-        height: 115,
-        width: 115,
-        child: Stack(
-          fit: StackFit.expand,
-          clipBehavior: Clip.none,
-          children: [
-            CircleAvatar(
-              backgroundImage: AssetImage("assets/images/profile.png"),
+            height: 115,
+            width: 115,
+            child: Stack(
+              fit: StackFit.expand,
+              clipBehavior: Clip.none,
+              children: [
+                CircleAvatar(
+                  backgroundImage: AssetImage("assets/images/profile.png"),
+                ),
+              ],
             ),
-          ],
-        ),
-      )
+          )
         ],
-
       ),
     );
   }
